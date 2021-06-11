@@ -84,7 +84,7 @@ a:active {
 #searchform input[type = text] {
     border:none;
     padding: 1%;
-    background-color: darkblue;
+    background-color: lightslategray;
     color: whitesmoke;
 }
 
