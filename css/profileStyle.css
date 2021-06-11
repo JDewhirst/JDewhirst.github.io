@@ -31,11 +31,8 @@ nav#MainNav{
     padding: 1%;
 }
 
-.container {
-    margin: auto;
-    width: 66%;
-    border: 3px solid green;
-    padding: 5%;
+.navbar {
+    font-weight: bold;
 }
 
 .box {
@@ -90,8 +87,5 @@ a:active {
     color: whitesmoke;
 }
 
-.button{
-    padding: 1%;
-    border: none;
-}
+
 
