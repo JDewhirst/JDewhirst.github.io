@@ -7,6 +7,9 @@
         <meta name = "description" content="Jack Dewhirst web profile"/>
         <title>Jack Dewhirst</title>
         <link href = "css/profileStyle.css", rel = "stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+        </style>
     </head>
 
     <body>
@@ -18,38 +21,44 @@
             <hr>
         </header>
 
-        <nav>
+        <nav id="MainNav">
             <ul>
-                <li><a href="projects.html" target="_blank">Got to projects</a></li>
-                <li><a href="https://www.linkedin.com/in/jack-dewhirst/" target="_blank">LinkedIn</a></li>
-                <li><a href="https://github.com/JDewhirst" target=_blank>GitHub</a></li>
+                <li class="navli"><a href="projects.html" target="_blank">Projects</a></li>
+                <li class="navli"><a href="https://www.linkedin.com/in/jack-dewhirst/" target="_blank">LinkedIn</a></li>
+                <li class="navli"><a href="https://github.com/JDewhirst" target=_blank>GitHub</a></li>
             </ul>
         </nav>
         
-        <div class = "body">
+        <div class = "container">
             <h2>Profile</h2>
+            <div class = "flex-container">
+                
+                <section class = "box">
+                    <h4>Skills</h4>
+                    <ol>
+                        <li> <a href="#">Testing</a> </li>
+                        <li> <a href="#">Testing</a> </li>
+                        <li> <a href="#">Testing</a> </li>
+                    </ol>
+                
+                </section>
 
-            <div class = "block">
-                <h4>Skills</h4>
-                <ol>
-                    <li> <a href="#">Testing</a> </li>
-                    <li> <a href="#">Testing</a> </li>
-                    <li> <a href="#">Testing</a> </li>
-                </ol>
+                <section class="box">
+                <h4>Goals</h4>
+                    <ul>
+                        <li>Test1</li>
+                        <li>Test2</li>
+                        <li>Test3</li>
+                    </ul>
+                
+                </section>
+                
+                
             </div>
 
-            <div class = "block">
-            <h4>Goals</h4>
-                <ul>
-                    <li>Test1</li>
-                    <li>Test2</li>
-                    <li>Test3</li>
-                </ul>
-            </div>
-
-            <div class="block">
+            <div class="box">
                 <h4>Search for News</h4>
-                <form action="https://bbc.co.uk/search" target="_blank">
+                <form id="searchform" action="https://bbc.co.uk/search" target="_blank">
                     <label for="mysearch">Search for:</label>
                     <input type="text" name="q" value="Kingston-Upon-Hull">
                     <input id="mysearch" type="submit" class="button">

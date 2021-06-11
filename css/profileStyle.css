@@ -1,16 +1,97 @@
-.block {
-    border: 2px solid cadetblue;
+
+
+body{
+    font-family: 'Roboto Mono', monospace;
     
 }
 
-.body {
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
+footer{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
 }
 
 .image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 30%;
-    height: 30%;
 }
+
+nav#MainNav{
+    background-color: lightblue;
+}
+
+.navli {
+    list-style-type: square;
+    display: inline;
+    margin: auto;
+    padding: 1%;
+}
+
+.container {
+    margin: auto;
+    width: 66%;
+    border: 3px solid green;
+    padding: 5%;
+}
+
+.box {
+    border: 2px solid cadetblue;
+    border-style: ridge;
+    padding: 2%;
+    margin: 1%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box h4{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+
+}
+
+a {
+    /*Get rid of the underline on the links and make them black */
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+    font-weight: bold;
+}
+
+#searchform {
+    background-color: gray;
+    color: blanchedalmond;
+    padding: 2%;
+    margin: 4%;
+}
+
+#searchform input[type = text] {
+    border:none;
+    padding: 1%;
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
+.button{
+    padding: 1%;
+    border: none;
+}
+
