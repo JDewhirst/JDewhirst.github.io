@@ -43,13 +43,7 @@ nav#MainNav{
     margin: 1%;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.box h4{
+h4{
     font-family: Tahoma;
     font-weight: 800;
     font-style: italic;
